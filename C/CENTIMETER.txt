@@ -1,0 +1,14 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main() 
+{
+    float c,m,km;
+    printf("Enter the value in centimeters");
+    scanf("%f",&c);
+    m=c*100;
+    printf("\nThe value in meters is %f",m);
+    km=m*1000;
+    printf("\nThe value in kilometers is %f",km);
+    return 0;
+}

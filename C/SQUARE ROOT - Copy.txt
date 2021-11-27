@@ -1,0 +1,12 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+#include<math.h>
+int main() 
+{
+    int x,y;
+    printf("Enter the number x");
+    scanf("%d",&x);
+    y=sqrt(x);
+    printf("The square root value is %d",y);
+    return 0;
+}

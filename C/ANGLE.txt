@@ -1,0 +1,12 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+#include<math.h>
+int main() 
+{
+    int a,b,c;
+    printf("Enter the two angles of the triangle");
+    scanf("%d%d",&a,&b);
+    c=180-(a+b);
+    printf("The third angle is %d",c);
+    return 0;
+}

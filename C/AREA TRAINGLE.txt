@@ -1,0 +1,12 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+#include<math.h>
+int main() 
+{
+    int B,H,A;
+    printf("Enter the base and height of the triangle");
+    scanf("%d%d",&B,&H);
+    A=(B*H)/2;
+    printf("The area is %d",A);
+    return 0;
+}

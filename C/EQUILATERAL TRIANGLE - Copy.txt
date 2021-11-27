@@ -1,0 +1,12 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+#include<math.h>
+int main() 
+{
+    float X,A;
+    printf("Enter the side of the triangle");
+    scanf("%f",&X);
+    A=(sqrt(3)/4)*X*X;
+    printf("The area is %f",A);
+    return 0;
+}

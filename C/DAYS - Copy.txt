@@ -1,0 +1,16 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main() 
+{
+    int D,W,Y;
+    printf("Enter the days");
+    scanf("%d",&D);
+    Y=D/365;
+    printf("\nThe year is %d",Y);
+    W= (D - (Y * 365)) / 7;
+    printf("\nThe weeks is %d",W);
+    D  = D - ((Y * 365) + (W * 7));
+    printf("\nThe days is %d",D);
+    return 0;
+}
